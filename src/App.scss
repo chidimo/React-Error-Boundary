@@ -1,0 +1,26 @@
+@import '~bootstrap/scss/bootstrap';
+
+.column {
+  padding: 0;
+}
+
+.column-left {
+  text-align: left;
+  height: calc(100vh - 4rem);
+  background-color: #f7f7f7;
+  border-right: 1px solid #ececec;
+}
+
+.code-block {
+  margin: 3rem;
+  text-align: center;
+}
+
+.images img {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.error-details {
+  white-space: pre-wrap;
+}
