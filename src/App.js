@@ -9,6 +9,7 @@ import { ColumnLeft } from './columns/ColumnLeft';
 import { ColumnRight } from './columns/ColumnRight';
 
 import './App.scss';
+import ErrorBoundary from './ErrorBoundary';
 
 export const App = () => {
   return (
@@ -24,7 +25,9 @@ export const App = () => {
           </Col>
 
           <Col className="column" xs="12" md="9">
-            <ColumnRight />
+            <ErrorBoundary>
+              <ColumnRight />
+            </ErrorBoundary>
           </Col>
         </Row>
       </Container>
