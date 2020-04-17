@@ -25,7 +25,7 @@ export default class ErrorBoundary extends Component {
         <div className="card my-5">
           <div className="card-header">
             <p>
-              There was an error in loading this page.{' '}
+              An error has occurred in this component.{' '}
               <span
                 style={{ cursor: 'pointer', color: '#0077FF' }}
                 onClick={() => {
