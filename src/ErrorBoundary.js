@@ -19,7 +19,7 @@ export default class ErrorBoundary extends Component {
   }
 
   render() {
-    const { hasError, error } = this.state;
+    const { hasError, errorInfo } = this.state;
     if (hasError) {
       return (
         <div className="card my-5">
@@ -40,7 +40,7 @@ export default class ErrorBoundary extends Component {
           <div className="card-body">
             <details className="error-details">
               <summary>Click for error details</summary>
-              {error && error.toString()}
+              {errorInfo && errorInfo.componentStack.toString()}
             </details>
           </div>
         </div>
