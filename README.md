@@ -1,6 +1,6 @@
 # Error boundary
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a61537c3-2658-4089-ae23-059c5364ab09/deploy-status)](https://app.netlify.com/sites/react-error-boundary/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/396b58e7-968a-416b-a728-ca7ecc10b0db/deploy-status)](https://app.netlify.com/sites/react-error-boundary/deploys)
 
 Read the article on SmashingMagazine
 
